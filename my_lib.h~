@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<limits.h>
+
+struct node
+{
+   int data;
+   struct node *next;   
+
+
+}*ptr=NULL, *stack1=NULL , *stack2=NULL;
+
+void stack_push( struct node **ptr,int item);
+int stack_pop(struct node **ptr);
+void stack_display();
+void pushqueue(int item);
+int deletequeue();
+void displayqueue();
+
+
+
+ 
+
